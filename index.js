@@ -27,5 +27,15 @@ db.sequelize.sync()
         // 'error' tidak dikenal (not defined) di sini
         res.send({message: error.message}); 
     });
+     app.get('/hotel', async (req, res) => {
+        try{
+            const hotel = await db.Tentrem.findAll();
+            res.send(hotel);
+        }
+        catch (error){
+            res.send({message: error.message});
+        }
+    });
+
 
 
