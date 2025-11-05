@@ -5,5 +5,7 @@ post
 delete
 <img width="2560" height="1600" alt="Screenshot 2025-11-05 113615" src="https://github.com/user-attachments/assets/2805b2be-626c-4fa5-b319-7aaa7b6f0838" />
 put
+<img width="2560" height="1600" alt="Screenshot 2025-11-05 125325" src="https://github.com/user-attachments/assets/9e767b05-74f4-4adb-bdd7-3754de3642d5" />
 
-<img width="2560" height="1600" alt="Screenshot 2025-11-05 113044" src="https://github.com/user-attachments/assets/39e7e5dd-c846-4c57-b82c-c8011ba9a907" />
+
+
