@@ -5,18 +5,24 @@ module.exports = (sequelize, DataTypes) => {
             primaryKey: true,
             autoIncrement: true
         },
-        nama: {
+        Tipe_Kamar: {
             type: DataTypes.STRING,
             allowNull: false
         },
-        nik: {
+        Kapasitas_Tamu: {
             type: DataTypes.INTEGER,
             allowNull: false
         },
-        deskripsi: {
-            type: DataTypes.TEXT,
+        Lantai: {
+            type: DataTypes.INTEGER,
+            allowNull: false
+        },
+        Fasilitas: {
+            type: DataTypes.STRING,
             allowNull: false
         }
+
+
     }, {
         tableName: "hotel",
         freezeTableName: true,
